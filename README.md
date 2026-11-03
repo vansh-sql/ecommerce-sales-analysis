@@ -20,7 +20,7 @@ The goal was to explore the data, understand relationships between different tab
 
 The dataset contains historical order-level information from Olist, including customer details, products, sellers, payments, reviews and delivery information.
 
-The original CSV files are included in this repository for reference and to make the analysis reproducible.
+The original dataset files are included in this repository for reference and to make the analysis reproducible.
 
 ## 3. Repository Structure
 
@@ -29,7 +29,7 @@ ecommerce-sales-analysis/
 │
 ├── Dataset/
 │   ├── olist_customers_dataset.csv
-│   ├── olist_geolocation_dataset.csv
+│   ├── olist_geolocation_dataset.zip
 │   ├── olist_order_items_dataset.csv
 │   ├── olist_order_payments_dataset.csv
 │   ├── olist_order_reviews_dataset.csv
@@ -57,7 +57,7 @@ The analysis was performed using PostgreSQL.
 To explore the project:
 
 1. Download or clone this repository.
-2. Download the CSV files from the `Dataset` folder.
+2. Extract `olist_geolocation_dataset.zip` inside the `Dataset` folder.
 3. Create a PostgreSQL database named `ecommerce_analytics`.
 4. Import the CSV files into PostgreSQL as separate tables.
 5. Check the table structures and relationships.
@@ -114,7 +114,7 @@ The project was completed in the following stages:
 
 - Reviewed query results.
 - Identified important business patterns.
-- Documented findings and possible areas for business improvement.
+- Documented findings and possible areas for further investigation.
 
 ## 7. Business Questions Explored
 
@@ -142,7 +142,7 @@ The project was completed in the following stages:
 - Which sellers generate the highest sales?
 - Who are the top sellers within each state?
 - Which products generate the highest revenue in each category?
-- How do seller delivery performance and customer ratings vary?
+- How does delivery performance vary across sellers?
 
 ## 8. Key Findings
 
@@ -158,7 +158,7 @@ The following findings are based on the SQL analysis performed on the dataset.
 | Repeat Customers | Approximately 3% of customers had more than one delivered order. |
 | Monthly Revenue | November 2017 recorded the highest monthly item sales revenue in the analysed period, approximately R$1.01 million. |
 
-These findings highlight differences in sales performance, customer purchasing behaviour and delivery operations across the dataset.
+For more detailed results and observations, see [Key Findings](Insights/Key_Findings.md).
 
 ## 9. SQL Concepts Used
 
@@ -200,9 +200,10 @@ The analysis highlights a few areas worth further investigation:
 This project provided practical experience in working with relational e-commerce data, writing PostgreSQL queries and interpreting query results in a business context.
 
 It demonstrates the use of SQL for data exploration, multi-table analysis, business reporting and advanced analytical queries.
+
 ---
 
 **Tools:** PostgreSQL | SQL | pgAdmin / psql  
-**Dataset Source:** [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+**Dataset Source:** [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-Note: The geolocation dataset is provided as a ZIP file. Extract it before importing into PostgreSQL.
+**Note:** The geolocation dataset is provided as a ZIP file. Extract it before importing into PostgreSQL.
