@@ -158,7 +158,6 @@ The following findings are based on the SQL analysis performed on the dataset.
 | Repeat Customers | Approximately 3% of customers had more than one delivered order. |
 | Monthly Revenue | November 2017 recorded the highest monthly item sales revenue in the analysed period, approximately R$1.01 million. |
 
-For more detailed results and observations, see [Key Findings](Insights/Key_Findings.md).
 
 ## 9. SQL Concepts Used
 
