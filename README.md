@@ -44,9 +44,6 @@ ecommerce-sales-analysis/
 │   ├── 03_Business_Analysis.sql
 │   └── 04_Advanced_Analysis.sql
 │
-├── Insights/
-│   └── Key_Findings.md
-│
 └── README.md
 ```
 
