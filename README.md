@@ -200,8 +200,8 @@ The analysis highlights a few areas worth further investigation:
 This project provided practical experience in working with relational e-commerce data, writing PostgreSQL queries and interpreting query results in a business context.
 
 It demonstrates the use of SQL for data exploration, multi-table analysis, business reporting and advanced analytical queries.
-Note: The geolocation dataset is provided as a ZIP file. Extract it before importing into PostgreSQL.
 ---
 
 **Tools:** PostgreSQL | SQL | pgAdmin / psql  
 **Dataset Source:** [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Note: The geolocation dataset is provided as a ZIP file. Extract it before importing into PostgreSQL.
