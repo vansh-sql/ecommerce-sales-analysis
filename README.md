@@ -203,5 +203,6 @@ It demonstrates the use of SQL for data exploration, multi-table analysis, busin
 ---
 
 **Tools:** PostgreSQL | SQL | pgAdmin / psql  
-**Dataset Source:** [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+**Dataset Source:** [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+
 Note: The geolocation dataset is provided as a ZIP file. Extract it before importing into PostgreSQL.
